@@ -1,0 +1,73 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #458debda;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.form-grupo {
+    margin-bottom: 20px;
+}
+
+.form-grupo label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #7c7c7c;
+}
+
+.form-grupo input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-grupo button {
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: #4e9edf;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#tabla-clima {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+#tabla-clima th {
+    padding: 12px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #ddd;
+}
+
+#tabla-clima td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#tabla-clima tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tabla-clima tbody tr:hover {
+    background-color: #ddd;
+}
