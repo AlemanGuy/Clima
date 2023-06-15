@@ -1,6 +1,6 @@
 function consultarClima() {
     const ciudad = document.getElementById('ciudad').value;
-    const API_KEY = '7988e38cdeafad1d912e3c3ab218ad65'; 
+    const API_KEY = '2b070cca61415611b4adf1564e7b163c'; 
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${API_KEY}`;
 
     fetch(url)
@@ -27,7 +27,7 @@ function consultarClima() {
 function consultarClimas() {
     const ciudades = document.getElementById('ciudades').value.split(',').map(ciudad => ciudad.trim());
 
-    const API_KEY = '7988e38cdeafad1d912e3c3ab218ad65';
+    const API_KEY = '2b070cca61415611b4adf1564e7b163c';
 
     Promise.all(ciudades.map(ciudad => {
         const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${API_KEY}`;
